@@ -220,7 +220,7 @@ p.feature-text {
 }
 
 .solution-subheading {
-  font-weight: 16px;
+  font-size: 16px;
   font-weight: 500px;
   text-transform: uppercase;
   color: #469165;
@@ -286,6 +286,12 @@ footer {
   color: #fff;
 }
 
+.footer-container hr {
+  margin-bottom: 30px;
+  border: 1px solid #e5e7eb;
+  opacity: 0.2;
+}
+
 .footer-top {
   display: flex;
   justify-content: space-between;
@@ -308,7 +314,7 @@ h2.social-title {
   max-height: 20px;
 }
 
-.social-icons img:not(:last-child) {
+.social-icons a:not(:last-child) {
   margin-right: 16px;
 }
 
