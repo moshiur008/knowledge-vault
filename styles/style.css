@@ -192,3 +192,44 @@ p.feature-text {
   line-height: 20px;
   color: #627382;
 }
+
+/* solution section  */
+
+#solution {
+  padding-bottom: 120px;
+}
+
+.container-solution {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.solution-image img {
+  max-width: 600px;
+}
+
+.solution-content {
+  margin-right: 195px;
+}
+
+.solution-subheading {
+  font-weight: 16px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  color: #469165;
+  margin-bottom: 16px;
+}
+
+ul.solution-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul.solution-features li {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
