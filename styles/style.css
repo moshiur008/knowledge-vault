@@ -22,6 +22,11 @@ body {
   padding: 12px 16px;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
 }
 
 .btn-primary {
@@ -232,4 +237,42 @@ ul.solution-features li {
   display: flex;
   gap: 6px;
   align-items: center;
+}
+
+/* cta section  */
+
+#cta {
+  padding-bottom: 120px;
+}
+
+.cta-container {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f7f6f2;
+  padding: 80px 40px;
+}
+
+h2.cta-heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #001931;
+}
+
+p.cta-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-bottom: 24px;
+}
+
+.cta-btn .btn {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 16px;
+}
+
+p.cta-footer {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
 }
