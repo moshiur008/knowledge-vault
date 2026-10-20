@@ -36,6 +36,23 @@ body {
   color: #fff;
 }
 
+.section-heading {
+  margin-bottom: 44px;
+}
+
+.section-heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.section-heading p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
 /* header styles  */
 
 .header-container {
@@ -126,4 +143,52 @@ p.hero-text {
 
 .hero-btns button:not(:last-child) {
   margin-right: 16px;
+}
+
+/* apps features  */
+
+#apps {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.apps-features {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-box {
+  max-width: 322px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+  padding: 70px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f95555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.feature-icon img {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+h3.feature-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+p.feature-text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
 }
