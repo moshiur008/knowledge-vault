@@ -9,6 +9,15 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+  color: #001931;
+}
 /* shared styles  */
 
 .container {
@@ -48,7 +57,6 @@ body {
 .section-heading h2 {
   font-size: 48px;
   font-weight: 700;
-  color: #001931;
   margin-bottom: 16px;
 }
 
@@ -189,7 +197,6 @@ p.hero-text {
 h3.feature-title {
   font-size: 24px;
   font-weight: 600;
-  color: #001931;
   margin-bottom: 16px;
 }
 
@@ -221,7 +228,7 @@ p.feature-text {
 
 .solution-subheading {
   font-size: 16px;
-  font-weight: 500px;
+  font-weight: 500;
   text-transform: uppercase;
   color: #469165;
   margin-bottom: 16px;
@@ -258,7 +265,6 @@ h2.cta-heading {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 16px;
-  color: #001931;
 }
 
 p.cta-description {
