@@ -17,6 +17,8 @@ body {
 }
 
 .btn {
+  font-size: 16px;
+  font-weight: 600;
   padding: 12px 16px;
   border-radius: 4px;
   cursor: pointer;
@@ -26,8 +28,12 @@ body {
   background-color: #30b868;
   border: 1px solid #30b868;
   color: #fff;
-  font-size: 16px;
-  font-weight: 600;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 /* header styles  */
@@ -56,4 +62,68 @@ body {
   line-height: 152%;
   color: #000;
   text-decoration: none;
+}
+
+/* hero styles  */
+#hero {
+  padding: 115px 0 180px;
+  background-image: url(../images/hero-bg.png);
+  background-color: rgba(0, 25, 49, 0.8);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-content {
+  max-width: 770px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-sub-heading {
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 50px;
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.hero-sub-heading p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #30b868;
+}
+
+.hero-sub-heading span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: #30b868;
+}
+
+h1.hero-heading {
+  font-size: 72px;
+  line-height: 84px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+h1.hero-heading span {
+  color: #30b868;
+}
+
+p.hero-text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.hero-btns button:not(:last-child) {
+  margin-right: 16px;
 }
