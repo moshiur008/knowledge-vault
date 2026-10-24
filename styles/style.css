@@ -166,12 +166,12 @@ p.hero-text {
 }
 
 .apps-features {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
 
 .feature-box {
-  max-width: 322px;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
   padding: 70px 24px;
   display: flex;
@@ -244,7 +244,7 @@ ul.solution-features {
 ul.solution-features li {
   display: flex;
   gap: 6px;
-  align-items: center;
+  align-items: start;
 }
 
 /* cta section  */
@@ -330,4 +330,68 @@ p.copyright-text {
   font-size: 16px;
   line-height: 24px;
   color: #fafafa;
+}
+
+/* responsive styles  */
+
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .solution-image img {
+    max-width: 400px;
+  }
+  .solution-content {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h1.hero-heading {
+    font-size: 60px;
+    line-height: 72px;
+  }
+  .apps-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container-solution {
+    flex-direction: column;
+    text-align: center;
+  }
+  .solution-content {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  h1.hero-heading {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 592px) {
+  h1.hero-heading {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .apps-features {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero-btns button:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .main-nav ul li a {
+    font-size: 14px;
+  }
+
+  .section-heading h2 {
+    font-size: 36px;
+  }
 }
